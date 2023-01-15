@@ -1,0 +1,39 @@
+| ID | Date of Payment              | Payer          | Payee             | Mode of Payment | Method of Payment | Amount | Purpose | Status |
+| -- | ---------------------------- | -------------- | ----------------- | --------------- | ----------------- | ------ | ------- | ------ |
+| 1  | Monday, March 01, 2021       | Anup Mahapatra | Priaybrata Behera | Offline         | Cash              | 5000   |         | Paid   |
+| 2  | Wednesday, December 01, 2021 | Anup Mahapatra | Priaybrata Behera | Online          | BHIM              | 100    |         | Paid   |
+| 3  | Wednesday, December 01, 2021 | Amit Mahapatra | Priaybrata Behera | Online          | BHIM              | 29900  |         | Paid   |
+| 4  | Wednesday, December 01, 2021 | Amit Mahapatra | Priaybrata Behera | Online          | BHIM              | 20000  |         | Paid   |
+| 5  | Friday, December 03, 2021    | Anup Mahapatra | Priaybrata Behera | Online          | NEFT              | 20000  |         | Paid   |
+| 6  | Tuesday, December 07, 2021   | Anup Mahapatra | Priaybrata Behera | Online          | BHIM              | 29900  |         | Paid   |
+| 7  | Tuesday, December 07, 2021   | Anup Mahapatra | Priaybrata Behera | Online          | BHIM              | 100    |         | Paid   |
+| 8  | Saturday, December 11, 2021  | Anup Mahapatra | Priaybrata Behera | Online          | BHIM              | 39900  |         | Paid   |
+| 9  | Saturday, December 11, 2021  | Anup Mahapatra | Priaybrata Behera | Online          | BHIM              | 100    |         | Paid   |
+| 10 | Sunday, December 12, 2021    | Amit Mahapatra | Priaybrata Behera | Online          | BHIM              | 40000  |         | Paid   |
+| 11 | Friday, December 17, 2021    | Amit Mahapatra | Priaybrata Behera | Online          | BHIM              | 20000  |         | Paid   |
+| 12 | Tuesday, December 21, 2021   | Amit Mahapatra | Priaybrata Behera | Online          | BHIM              | 50000  |         | Paid   |
+| 13 | Friday, December 24, 2021    | Amit Mahapatra | Priaybrata Behera | Online          | BHIM              | 50000  |         | Paid   |
+| 14 | Sunday, January 02, 2022     | Anup Mahapatra | Priaybrata Behera | Online          | BHIM              | 50000  |         | Paid   |
+| 15 | Sunday, January 09, 2022     | Amit Mahapatra | Priaybrata Behera | Online          | BHIM              | 50000  |         | Paid   |
+| 16 | Saturday, January 15, 2022   | Amit Mahapatra | Priaybrata Behera | Online          | BHIM              | 50000  |         | Paid   |
+| 17 | Sunday, January 16, 2022     | Amit Mahapatra | Priaybrata Behera | Online          | BHIM              | 50000  |         | Paid   |
+| 18 | Friday, January 21, 2022     | Amit Mahapatra | Priaybrata Behera | Online          | BHIM              | 50000  |         | Paid   |
+| 19 | Sunday, January 23, 2022     | Amit Mahapatra | Priaybrata Behera | Online          | Phone Pay         | 50000  |         | Paid   |
+| 20 | Monday, February 14, 2022    | Amit Mahapatra | Priaybrata Behera | Online          | BHIM              | 50000  |         | Paid   |
+| 21 | Monday, February 28, 2022    | Amit Mahapatra | Priaybrata Behera | Online          | BHIM              | 10000  |         | Paid   |
+| 22 | Monday, February 28, 2022    | Amit Mahapatra | Priaybrata Behera | Online          | BHIM              | 40000  |         | Paid   |
+| 23 | Sunday, March 06, 2022       | Amit Mahapatra | Priaybrata Behera | Online          | BHIM              | 40000  |         | Paid   |
+| 24 | Sunday, March 06, 2022       | Amit Mahapatra | Priaybrata Behera | Online          | BHIM              | 10000  |         | Paid   |
+| 25 | Monday, March 07, 2022       | Amit Mahapatra | Priaybrata Behera | Online          | BHIM              | 10000  |         | Paid   |
+| 26 | Monday, March 07, 2022       | Amit Mahapatra | Priaybrata Behera | Online          | BHIM              | 40000  |         | Paid   |
+| 27 | Wednesday, March 16, 2022    | Amit Mahapatra | Priaybrata Behera | Online          | BHIM              | 40000  |         | Paid   |
+| 28 | Wednesday, March 16, 2022    | Amit Mahapatra | Priaybrata Behera | Online          | BHIM              | 10000  |         | Paid   |
+| 29 | Friday, March 18, 2022       | Amit Mahapatra | Priaybrata Behera | Online          | BHIM              | 40000  |         | Paid   |
+| 30 | Friday, March 18, 2022       | Amit Mahapatra | Priaybrata Behera | Online          | BHIM              | 10000  |         | Paid   |
+| 31 | Saturday, March 19, 2022     | Amit Mahapatra | Priaybrata Behera | Online          | BHIM              | 10000  |         | Paid   |
+| 32 | Saturday, March 19, 2022     | Amit Mahapatra | Priaybrata Behera | Online          | BHIM              | 40000  |         | Paid   |
+| 33 | Tuesday, March 29, 2022      | Amit Mahapatra | Priaybrata Behera | Online          | BHIM              | 30000  |         | Paid   |
+| 34 | Friday, April 08, 2022       | Amit Mahapatra | Priaybrata Behera | Online          | BHIM              | 50000  |         | Paid   |
+| 35 | Friday, April 08, 2022       | Amit Mahapatra | Priaybrata Behera | Online          | BHIM              | 20000  |         | Paid   |
+| 36 | Friday, April 22, 2022       | Anup Mahapatra | Priaybrata Behera | Online          | BHIM              | 50000  |         | Paid   |
+| 37 | Friday, April 29, 2022       | Anup Mahapatra | Priaybrata Behera | Online          | BHIM              | 50000  |         | Paid   |
