@@ -3,7 +3,7 @@
 It is a combination of a **sequence** of **finite steps** to **solve a problem**.
 
 - **sequence** : You cannot swap 2 logical steps.
-- **finite Steps** : Every algorithm should be of finite steps and every step must be mandatory or else it is not required in the algorithm itself.
+- **finite steps** : Every algorithm should be of finite steps and every step must be mandatory or else it is not required in the algorithm itself.
 - **solve a problem** : The algorithm must be solving a problem.
 
 ## Properties of Algorithm
