@@ -1,29 +1,27 @@
 ## Algorithm Definition
 
-It is a combination of a **sequence** of **finite steps** to **solve a
-problem**.
+It is a combination of a **sequence** of **finite steps** to **solve a problem**.
 
-- **Sequence** : You cannot swap 2 logical steps.
-- **Finite Steps** : Every algorithm should be finite and every step must be
-mandatory or else it is not required in the algorithm itself.
-- **Solve a problem** : The algorithm must be solving a problem.
+- **sequence** : You cannot swap 2 logical steps.
+- **finite Steps** : Every algorithm should be of finite steps and every step must be mandatory or else it is not required in the algorithm itself.
+- **solve a problem** : The algorithm must be solving a problem.
 
 ## Properties of Algorithm
 
 ### Property 1
 
-It should terminate after a finite time.
+It should terminate after a finite time. 
 ```c
   while(1) {
     print ("Infinity");
   }
 ```
-The above code will not terminate in finite time. So it is not an
-algorithm.
+If a code has finite steps, it is not necessary that it will terminate in finite time.
+The above code will not terminate in finite time, even though, it has finite numbers of steps. So it is not an algorithm.
 
 ### Property 2
 
-It should produce one output directly or indirectly.
+Algorithm, may or may not take input, but, it should produce at least one output directly or indirectly. Produce an output does not mean there will always be a print statement of the result at the end. It means some meaningful work must be done during the execution.
 
 ### Property 3
 
@@ -40,7 +38,9 @@ present in any algorithm.
 
 Every algorithm must be deterministic.
 
-![Determinism](image1.png)
+![Non-Determinism](image1.png)
+
+The above diagram represents non-determinism.
 
 ### Property 5
 
