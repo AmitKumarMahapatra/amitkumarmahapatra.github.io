@@ -3,12 +3,10 @@
 It is a combination of a **sequence** of **finite steps** to **solve a
 problem**.
 
-Sequence: You cannot swap 2 logical steps.
-
-Finite Steps: Every algorithm should be finite and every step must be
+- **Sequence** : You cannot swap 2 logical steps.
+- **Finite Steps** : Every algorithm should be finite and every step must be
 mandatory or else it is not required in the algorithm itself.
-
-Solve a problem: The algorithm must be solving a problem.
+- **Solve a problem** : The algorithm must be solving a problem.
 
 ## Properties of Algorithm
 
@@ -97,7 +95,7 @@ Coding
 
 ### Step 6
 
-Analysis (CP Time and Main Memory Space)
+Analysis (Time and Space Complexity Analysis)
 
 ## Note
 
