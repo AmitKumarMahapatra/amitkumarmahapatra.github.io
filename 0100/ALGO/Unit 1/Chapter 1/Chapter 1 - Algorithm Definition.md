@@ -40,7 +40,7 @@ present in any algorithm.
 
 Every algorithm must be deterministic.
 
-![Determinism](/0100/Algorithm/Unit%201/image1.png)
+![Determinism](image1.png)
 
 ### Property 5
 

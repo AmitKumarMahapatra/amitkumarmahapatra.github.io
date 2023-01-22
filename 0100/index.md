@@ -1,0 +1,2 @@
+## Index
+- [Algorithm](./index.md)
