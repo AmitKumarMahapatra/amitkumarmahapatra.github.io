@@ -1,5 +1,5 @@
 ---
-use_math: true
+title: Unit 1 / Chapter 2
 ---
 
 ## Index
