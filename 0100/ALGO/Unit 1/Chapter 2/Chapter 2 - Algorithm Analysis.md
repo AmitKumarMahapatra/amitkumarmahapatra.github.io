@@ -106,7 +106,7 @@ In the CSE Field, if you know the algorithm, somehow you will survive. That is f
 ![Example 2 - Case B](./images/Example%202/Case%20B.jpg)
 
 ##### Case C
-[Example 2 - Case C](./images/Example%202/Case%20C.jpgg)
+![Example 2 - Case C](./images/Example%202/Case%20C.jpgg)
 
 #### Exam Tricks
 Few things are just to confuse you. Not really affect the final output at all.
