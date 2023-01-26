@@ -1,5 +1,5 @@
 ---
-title: Algorithm
+use_math: true
 ---
 
 ## Index
