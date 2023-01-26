@@ -44,7 +44,11 @@
         - [Example 10 (Tricky One)](#example-10-tricky-one)
             - [Motivational Quote](#motivational-quote-3)
         - [Example 11](#example-11)
+            - [Case A](#case-a-4)
+            - [Case B](#case-b-4)
             - [Note for Example 11](#note-for-example-11)
+            - [Note for Example 11 Case A](#note-for-example-11-case-a)
+            - [Note for Example 11 Case B](#note-for-example-11-case-b)
             - [Motivational Quote](#motivational-quote-4)
         - [Example 12](#example-12)
         - [Example 13](#example-13)
@@ -52,8 +56,6 @@
             - [Case A](#case-a-4)
             - [Exam Tricks](#exam-tricks-3)
             - [Case B](#case-b-4)
-
-
 
 ## Algorithm Analysis
 If a problem is having more than 1 algorithm, the best algorithm is decided by analysis based on 2 factors.
@@ -106,7 +108,7 @@ In the CSE Field, if you know the algorithm, somehow you will survive. That is f
 ![Example 2 - Case B](./images/Example%202/Case%20B.jpg)
 
 ##### Case C
-![Example 2 - Case C](./images/Example%202/Case%20C.jpgg)
+![Example 2 - Case C](./images/Example%202/Case%20C.jpg)
 
 #### Exam Tricks
 Few things are just to confuse you. Not really affect the final output at all.
@@ -198,25 +200,35 @@ $(0.99){}^{365}\  = \ 37.78$
 Don\'t be like a problem person, Be a solution Person.
 
 #### Example 11
+
+##### Case A
 ![Example 11 - Case A](./images/Example%2011/Case%20A.jpg)
 
+##### Case B
+![Example 11 - Case B](./images/Example%2011/Case%20B.jpg)
+
 ##### Note for Example 11
--   Except Example 11, in all other previous examples, the T(n) has
-    always one particular answer. That is, T(n) does not depend on the
-    **Type of n**. But in Example 11, the algorithm gives **different**
-    T(n) depending upon the value of **Type of n**.
--   Here, we need to understand the use of $\odot$, $\Omega$ and
-    $\Theta$.
--   $\odot$, $\Omega$ and $\Theta$ is not used for Worst Case, Best case
-    and Average case.
--   $\odot$, $\Omega$ and $\Theta$ is not only used for Time and Space
-    Complexity. They are used whenever we don\'t have an actual answer,
-    and we can only give an approximate one.
+-   Except Example 11, in all other previous examples, the $T(n)$ has always one particular answer. That is, $T(n)$ does not depend on the **type of n**. But in [Example 11 Case B](#case-b-4), the algorithm gives **different** $T(n)$ depending upon the value of **type of n**.
+-   Here, we need to understand the use of $\odot$ , $\Omega$ and $\Theta$.
+-   $\odot$, $\Omega$ and $\Theta$ is not used for Worst Case, Best case and Average case.
+-   $\odot$, $\Omega$ and $\Theta$ is not only used for Time and Space Complexity. They are used whenever we don\'t have an actual answer and we can only give an approximate one.
 -   $\odot$ simply means the right side is greater or equal.
 -   $\Omega$ simply means the left side is greater or equal.
--   Where we can write both $\odot$ and $\Omega$ in there we can write
-    $\Theta$.
+-   Where we can write both $\odot$ and $\Omega$ in there we can write $\Theta$.
 -   This will be explained in Chapter 3.
+
+##### Note for Example 11 Case A
+- Here $n$ is always guaranteed to be prime. So the ``if`` condition is going to be satisfied exactly 2 times. But the outer ``for`` loop is going to be executed for n number of times. So the $T(n)$ is $\odot(n)$, not $\odot(1)$.
+- Here there is only 1 possibility of $T(n)$, however, different possibilities comes in [Example 11 Case B](#case-b-4)
+
+##### Note for Example 11 Case B
+- Here $n$ can be prime or composite. So the inner ``for`` loop execution will depend on the type of $n$.
+    - if $n$ is always prime then $T(n) = n$
+    - if $n$ is always composite then max  $T(n) = n^2$
+- So $\Omega(n) < T(n) < \odot(n^2)$
+- So the correct expressions for T(n) are
+    - $T(n) = \Omega(n)$ *represents that T(n) will be minimum n*
+    - $T(n) = \odot(n^2)$ *represents that T(n) will be maximum $n^2$*
 
 #### Motivational Quote
 Don't cry if anything new comes in. Just Smile and learn it.
