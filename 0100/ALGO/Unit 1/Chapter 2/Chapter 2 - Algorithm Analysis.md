@@ -1,3 +1,7 @@
+---
+title: Algorithm
+---
+
 ## Index
 - [Algorithm Analysis](#algorithm-analysis)
     - [Time Complexity Analysis](#time-complexity-analysis)
