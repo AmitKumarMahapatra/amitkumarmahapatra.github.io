@@ -2,7 +2,6 @@
 - [Algorithm Analysis](#algorithm-analysis)
     - [Time Complexity Analysis](#time-complexity-analysis)
         - [Types of Time Complexity Analysis](#types-of-time-complexity-analysis)
-        - [APostiary Analysis Vs APriori Analysis](#apostiary-analysis-vs-apriori-analysis)
         - [Motivational Quote](#motivational-quote)
         - [Motivational Quote](#motivational-quote-1)
     - [APriori Analysis Examples](#apriori-analysis-examples)
@@ -57,10 +56,7 @@
 
 
 ## Algorithm Analysis
-
-If a problem is having more than 1 algorithm, the best algorithm is
-decided by analysis based on 2 factors.
-
+If a problem is having more than 1 algorithm, the best algorithm is decided by analysis based on 2 factors.
 1.  Time Complexity (CPU Time that the algorithm requires)
 2.  Space Complexity (Main Memory space required by the algorithm)
 
@@ -77,8 +73,7 @@ decided by analysis based on 2 factors.
 | Answer is different from system to system                    | Same answer in every system                                         |
 
 #### Motivational Quote
-Everyone can not buy a supercomputer, but everyone can write a super
-algorithm.
+Everyone can not buy a supercomputer, but everyone can write a super algorithm.
 
 #### Motivational Quote
 In the CSE Field, if you know the algorithm, somehow you will survive. That is for sure.
@@ -114,8 +109,7 @@ In the CSE Field, if you know the algorithm, somehow you will survive. That is f
 [Example 2 - Case C](./images/Example%202/Case%20C.jpgg)
 
 #### Exam Tricks
-Few things are just to confuse you. Not really affect the final output
-at all.
+Few things are just to confuse you. Not really affect the final output at all.
 
 ##### Case D
 ![Example 2 - Case D](./images/Example%202/Case%20D1.jpg)
