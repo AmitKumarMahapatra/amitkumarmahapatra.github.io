@@ -2,7 +2,7 @@
 - Unit 1 - Algorithm Measuring Techniques
     - [Chapter 1 - Algorithm Definition](./Unit%201/Chapter%201/Chapter%201%20-%20Algorithm%20Definition)
     - [Chapter 2 - Algorithm Analysis](./Unit%201/Chapter%202/Chapter%202%20-%20Algorithm%20Analysis)
-    - [Chapter 3 - Asymptotic Notations]
+    - [Chapter 3 - Asymptotic Notations](./Unit%201/Chapter%203/Chapter%203%20-%20Asymptotic%20Notations)
     - [Chapter 4 - Complexity Classes]
 - Unit 2 - Recursion Solving Methodology
     - [Chapter 1 - Recursion Solving Methods]
