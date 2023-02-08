@@ -1,29 +1,4 @@
-## Index
-- [Asymptotic Notations](#asymptotic-notations)
-    - [From Definition Point of View](#from-definition-point-of-view)
-        - [Big Oh Notation Definition](#big-oh-notation-definition)
-            - [Example 1](#example-1)
-            - [Example 2](#example-2)
-            - [Example 3](#example-3)
-        - [Big Omega Notation Definition](#big-omega-notation-definition)
-            - [Example 1](#example-1-1)
-            - [Example 2](#example-2-1)
-            - [Example 3](#example-3-1)
-        - [Theta Notation Definition](#theta-notation-definition)
-    - [From Graphical Point of View](#from-graphical-point-of-view)
-        - [Big Oh Notation Graph](#big-oh-notation-graph)
-        - [Big Omega Notation Graph](#big-omega-notation-graph)
-        - [Theta Notation Graph](#theta-notation-graph)
-    - [From Upper and Lower Bound Point of View](#from-upper-and-lower-bound-point-of-view)
-        - [Big Oh Notation](#big-oh-notation)
-        - [Big Omega Notation](#big-omega-notation)
-        - [Theta Notation](#theta-notation)
-        - [Little Oh Notation](#little-oh-notation)
-        - [Little Omega Notation](#little-omega-notation)
-    - [Notes on Notation](#notes-on-notation)
-    - [Little Here and There](#little-here-and-there)
-
-# Asymptotic Notations
+## Asymptotic Notations
 
 ## From Definition Point of View
 
@@ -67,6 +42,7 @@ $$
 ![Big Omega Example 1](./images/Omega%20Example%203.jpg)
 
 ### Theta Notation Definition 
+
 $$
 f(n) = \ \Theta(g(n)) \\
 iff \\
@@ -75,6 +51,7 @@ f(n) \leq c_{1}.\ g(n) \ \ \&\& \ \ f(n) \geq c_{2}.\ g(n) \\
 $$
 
 In Other Words
+
 $$
 if\ f(n) = \odot (g(n)) \ \&\& \ if\ f(n) = \Omega(g(n)) \\
 then \\

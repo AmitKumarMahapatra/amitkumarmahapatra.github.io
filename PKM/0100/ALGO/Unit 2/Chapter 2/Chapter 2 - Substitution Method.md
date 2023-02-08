@@ -2,6 +2,7 @@
 Substituting the given function repeatedly until the given function is removed.
 
 ### Example 1
+
 $$
 \begin{equation}
 \ T(n)=
@@ -85,6 +86,7 @@ $$
 ![](./images/Example%206.jpg)
 
 ### Example 7
+
 $$
 \begin{equation}
 \ T(n)=

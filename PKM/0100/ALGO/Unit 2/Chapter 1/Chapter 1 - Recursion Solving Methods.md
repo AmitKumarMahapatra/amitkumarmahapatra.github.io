@@ -39,12 +39,15 @@ $$
     \end{cases}
 \end{equation}
 $$
+
 If you solve it
+
 $$
 T(n) = \Theta(n)
 $$
 
 Value Recurrence Relation
+
 $$
 \begin{equation}
 \ F(n)=
@@ -54,7 +57,9 @@ $$
     \end{cases}
 \end{equation}
 $$
+
 If you solve it
+
 $$
 F(n) = n! \  or \odot(n^n)
 $$

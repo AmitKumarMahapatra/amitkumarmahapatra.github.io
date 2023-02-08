@@ -1,50 +1,3 @@
-## Index
-- [Complexity Classes](#section)
-    - [Example 1](#example-1)
-        - [Question](#question)
-        - [Answer](#answer)
-            - [Option 1](#option-1)
-            - [Option B](#option-b)
-                - [Applying Log](#applying-log)
-                - [Fail Example 1](#fail-example-1)
-                - [Fail Example 2](#fail-example-2)
-                - [Substituting value](#substituting-value)
-            - [Option C](#option-c)
-            - [Option D](#option-d)
-        - [Key Takeaway](#key-takeaway)
-    - [Example 2](#example-2)
-        - [Question](#question-1)
-        - [Answer](#answer-1)
-            - [Option A](#option-a-1)
-            - [Option B](#option-b-1)
-            - [Option C](#option-c-1)
-            - [Option D](#option-d-1)
-    - [Example 3](#example-3)
-        - [Question](#question-2)
-        - [Answer](#answer-2)
-            - [Option A](#option-a-2)
-            - [Option B](#option-b-2)
-            - [Option C](#option-c-2)
-            - [Option D](#option-d-2)
-    - [Example 4](#example-4)
-    - [Example 5](#example-5)
-    - [Example 6](#example-6)
-    - [Example 7](#example-7)
-    - [Example 8](#example-8)
-    - [Example 9](#example-9)
-    - [Example 10](#example-10)
-    - [Example 11](#example-11)
-    - [Example 12](#example-12)
-    - [Example 13](#example-13)
-    - [Example 14](#example-14)
-    - [Example 15](#example-15)
-    - [Note for Stirling\'s Approximation](#note-for-stirlings-approximation)
-    - [Properties of Asymptotic Notations](#properties-of-asymptotic-notations)
-        - [Reflexive Property](#reflexive-property)
-        - [Symmetric Property](#symmetric-property)
-        - [Transitive Property](#transitive-property)
-        - [Extra Property](#extra-property)
-
 ## Complexity Classes
 
 1.  Decreasing Functions \[ $\frac{1}{n}$ , $\frac{1}{n^{2}}$ etc\]
@@ -85,11 +38,11 @@ Identify True and False Statements
     1.  Apply Log
     2.  Substituting value
     
-    ##### **Applying Log**
+    ##### Applying Log
     ![](./images/Example%201/Option%20B2.jpg)
     - Applying log might fail in some cases as below. So be careful when using this method.
 
-        ###### **Fail Example 1**
+        ###### Fail Example 1
 
         $if\ x < y\ then\ c^{x} = \theta(c^{y}$)
 
@@ -114,7 +67,7 @@ Identify True and False Statements
         Because
         $2^{n} \neq \theta(2^{2n})\ \lbrack which\ is\ \theta(4^{n})\rbrack$
 
-        ###### **Fail Example 2**
+        ###### Fail Example 2
 
         $if\ x < y\ then\ n^{x} = \theta(n^{y})\ where\ x\ and\ y\ both\ are\ constants$
 

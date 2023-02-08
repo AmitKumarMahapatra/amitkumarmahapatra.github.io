@@ -14,7 +14,7 @@
         - [Chapter 5b - Fibonacci Series]()
         - [Chapter 5c - GCD]()
 - Unit 3 - Divide and Conquer
-    - [Chapter 1 - Def]()
+    - [Chapter 1 - Divide and Conquer Definition]()
     - [Chapter 2 - Max-Min Problem]()
     - [Chapter 3 - Linear Search]()
     - [Chapter 4 - Binary Search]()
