@@ -5,9 +5,33 @@
     - [Chapter 3 - Asymptotic Notations](./Unit%201/Chapter%203/Chapter%203%20-%20Asymptotic%20Notations)
     - [Chapter 4 - Complexity Classes](./Unit%201/Chapter%204/Chapter%204%20-%20Complexity%20Classes)
 - Unit 2 - Recursion Solving Methodology
-    - [Chapter 1 - Recursion Solving Methods]
-    - [Chapter 2 - Substitution Method]
-    - [Chapter 3 - Recursive Tree Method]
-    - [Chapter 4 - Master Theorem]
-- Unit 3
-- Unit 4
+    - [Chapter 1 - Recursion Solving Methods](./Unit%202/Chapter%201/Chapter%201%20-%20Recursion%20Solving%20Methods)
+    - [Chapter 2 - Substitution Method](./Unit%202/Chapter%202/Chapter%202%20-%20Substitution%20Method)
+    - [Chapter 3 - Recursive Tree Method](./Unit%202/Chapter%203/Chapter%203%20-%20Recursive%20Tree%20Method)
+    - [Chapter 4 - Master Theorem](./Unit%202/Chapter%204/Chapter%204%20-%20Master%20Theorem)
+    - [Chapter 5 - How to find Time Complexity of a recursive problem]()
+        - [Chapter 5a - Factorial]()
+        - [Chapter 5b - Fibonacci Series]()
+        - [Chapter 5c - GCD]()
+- Unit 3 - Divide and Conquer
+    - [Chapter 1 - Def]()
+    - [Chapter 2 - Max-Min Problem]()
+    - [Chapter 3 - Linear Search]()
+    - [Chapter 4 - Binary Search]()
+    - [Chapter 5 - Power of an element]()
+    - [Chapter 6 - Merge Sort]()
+    - [Chapter 7 - Quick Sort]()
+    - [Chapter 8 - Heap Sort]()
+    - [Chapter 9 - Counting No of Inversions]()
+    - [Chapter 10 - Stressen's Matrix Multiplication]()
+    - [Chapter 11 - Continuous Maximum Sub Array Sum]()
+- Unit 4 - Sorting Algorithm
+    - [Chapter 1 - Bubble Sort]()
+    - [Chapter 2 - Insertion Sort]()
+    - [Chapter 3 - Selection Sort]()
+    - [Chapter 4 - Radix Sort]()
+    - [Chapter 5 - Bucket Sort]()
+    - [Chapter 6 - Counting Sort]()
+- Unit 5 - Greedy Algorithm
+- Unit 6 - Dynamic Programming
+- Unit 7 - Graph Algorithm
