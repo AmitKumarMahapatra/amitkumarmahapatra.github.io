@@ -84,7 +84,7 @@ and \ we \ can \ write \ the \ below \\
 n^2 = \Omega(n^{log_{2}2 + 1}) \ where \ \epsilon \ is \ 1 \\
 so \ this \ falls \ under \ 2^{nd} \ Case\\
 so \ T(n) = \Theta(n^2) \\ 
-(you \ may \ check \ the \ regularity \ condition \ as \ well )\
+(you \ may \ check \ the \ regularity \ condition \ as \ well )
 $$
 
 ### Example 3
