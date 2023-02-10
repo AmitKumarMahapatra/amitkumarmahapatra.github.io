@@ -3,24 +3,24 @@
 1.  Decreasing Functions \[ $\frac{1}{n}$ , $\frac{1}{n^{2}}$ etc\]
 2.  Constant Functions
     1.  $log(log(n))$
-3.  Logarithmic Functions \[ $log\ n$, ${(log\ n)}^{2}$ etc \]
-    1.  $$
-4.  Polynomial Functions \[ $n^{c}\ where\ c \succ 0$ \]
+3.  Logarithmic Functions \[ $log_{}n$, ${(log_{}n)}^{2}$ etc \]
+    1.  $\sqrt{n}$
+4.  Polynomial Functions \[ $n^{c}\ where\ c \gt 0$ \]
     1.  Linear Functions
-        1.  $nlog(n)$
+        1.  $nlog_{}n$
         2.  $n$
     2.  Quadratic Functions
     3.  Cubic Functions
-5.  Exponential Functions \[ $c^{n}\ where\ c \succ 1\ $ \]
+5.  Exponential Functions \[ $c^{n}\ where\ c \gt 1\ $ \]
 
 ## Example 1
 
 ### Question
 Identify True and False Statements
-1.  $1000\ nlog(n)\  = \  \odot (\frac{nlog(n)}{1000})$
-2.  $\sqrt{log(n)}  = \  \odot (log(log(n)))$
-3.  $if\ 0 < x < y\ then\ n^{x}\  = \odot (n^{y})$
-4.  $n^{c}\  \neq \  \odot (c^{n})$
+1.  $1000\ nlog(n)\  = \  O (\frac{nlog(n)}{1000})$
+2.  $\sqrt{log(n)}  = \  O (log(log(n)))$
+3.  $if\ 0 < x < y\ then\ n^{x}\  = O (n^{y})$
+4.  $n^{c}\  \neq \  O (c^{n})$
 
 ### Answer
 
@@ -38,60 +38,60 @@ Identify True and False Statements
     1.  Apply Log
     2.  Substituting value
     
-    ##### Applying Log
-    ![](./images/Example%201/Option%20B2.jpg)
-    - Applying log might fail in some cases as below. So be careful when using this method.
+##### Applying Log
+![](./images/Example%201/Option%20B2.jpg)
+- Applying log might fail in some cases as below. So be careful when using this method.
 
-        ###### Fail Example 1
+###### Fail Example 1
 
-        $if\ x < y\ then\ c^{x} = \theta(c^{y}$)
+$if\ x < y\ then\ c^{x} = \Theta(c^{y})$
 
-        By solving this using Log Method
+By solving this using Log Method
 
-        $log(c^{x})\ \ \ \ \ \ \ \ log(c^{y})$
+$log(c^{x})\ \ \ \ \ \ \ \ log(c^{y})$
 
-        $xlog(c)\ \ \ \ \ \ \ \ y\ log(c)$ $\ \ \ \ \ \ \ \ $ *(Canceling $log(c)$ both the sides)*
+$xlog(c)\ \ \ \ \ \ \ \ y\ log(c)$ $\ \ \ \ \ \ \ \ $ *(Canceling $log(c)$ both the sides)*
 
-        $x\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ y$
+$x\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ y$
 
-        We know  $x < y$
+We know  $x < y$
 
-        So we can take $x = n\ \&\&\ y = 2n$
+So we can take $x = n\ \&\&\ y = 2n$
 
-        $n = \theta(2n)$
+$n = \Theta(2n)$
 
-        So $c^{x} = \theta(c^{y})$
+So $c^{x} = \Theta(c^{y})$
 
-        But in reality $c^{x} = \odot (c^{y})$
+But in reality $c^{x} = O (c^{y})$
 
-        Because
-        $2^{n} \neq \theta(2^{2n})\ \lbrack which\ is\ \theta(4^{n})\rbrack$
+Because
+$2^{n} \neq \Theta(2^{2n})\ \lbrack which\ is\ \Theta(4^{n})\rbrack$
 
-        ###### Fail Example 2
+###### Fail Example 2
 
-        $if\ x < y\ then\ n^{x} = \theta(n^{y})\ where\ x\ and\ y\ both\ are\ constants$
+$if\ x < y\ then\ n^{x} = \Theta(n^{y})\ where\ x\ and\ y\ both\ are\ constants$
 
-        By solving this using Log Method
+By solving this using Log Method
 
-        $log(n^{x})\ \ \ \ \ \ \ \ log(n^{y})$
+$log(n^{x})\ \ \ \ \ \ \ \ log(n^{y})$
 
-        $xlog(n)\ \ \ \ \ \ \ \ log(n)$ $\ \ \ \ \ \ \ \ $ *(Canceling $log(n)$ both the sides)*
+$xlog(n)\ \ \ \ \ \ \ \ log(n)$ $\ \ \ \ \ \ \ \ $ *(Canceling $log(n)$ both the sides)*
 
-        $x\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ y$
+$x\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ y$
 
-        We know $x < y\ and\ both\ are\ constants\ so\ x = \theta(y)$
+We know $x < y\ and\ both\ are\ constants\ so\ x = \Theta(y)$
 
-        Hence $n^{x} = \theta(n^{y})$
+Hence $n^{x} = \Theta(n^{y})$
 
-        But in reality $n^{x} = \odot (n^{y})$
+But in reality $n^{x} = O (n^{y})$
 
-        Because $n^{2} \neq \theta(n^{3})$
+Because $n^{2} \neq \Theta(n^{3})$
 
-    ##### Substituting value
-    ![](./images/Example%201/Option%20B3.jpg)
-    - But taking values like this is not a good Idea though. Use this method only in the worst case scenario when you have no other option.
-    - Still if you are using this method, then use very large values.
-    - This method will fail for small values, because this is an Asymptotic comparison, not a pure mathematical one.
+##### Substituting value
+![](./images/Example%201/Option%20B3.jpg)
+- But taking values like this is not a good Idea though. Use this method only in the worst case scenario when you have no other option.
+- Still if you are using this method, then use very large values.
+- This method will fail for small values, because this is an Asymptotic comparison, not a pure mathematical one.
 
 #### Option C
 ![](./images/Example%201/Option%20C.jpg)
@@ -101,12 +101,12 @@ Identify True and False Statements
 
 #### Key Takeaway
 - $\omega$ means $\Omega$ But $\Omega$ does not necessarily means $\omega$
-- $\circ$ means $\odot$ But $\odot$ does not necessarily means  $\circ$
+- $o$ means $O$ But $O$ does not necessarily means  $o$
 - Subset and Superset Diagram
     - ![]()
-- If $\theta$ is possible then  $\circ$ and $\omega$ not possible.
-- If $\odot$ and $\Omega$ both are possible, then $\Theta possible.
-- If $\Theta$ is not possible and the functions are comparable, one of $\omega$ or $\circ$ must be possible
+- If $\Theta$ is possible then  $o$ and $\omega$ not possible.
+- If $O$ and $\Omega$ both are possible, then $\Theta possible.
+- If $\Theta$ is not possible and the functions are comparable, one of $\omega$ or $o$ must be possible
 - The way to compare the Asymptotic relation is in below order of priority
     -   Logical or strong Mathematical Proof
     -   Apply Log, But before applying, make sure, you are deleting the common terms
@@ -118,10 +118,10 @@ Identify True and False Statements
 ### Question
 
 Identify True and False Statements
-1.  $2^{n + 1} = \odot (2^{n})$
-2.  $\frac{4^{n}}{2^{n}} = \odot (2^{n})$
-3.  $2^{2n} = \odot (2^{n})$
-4.  $64^{log(n)} = \odot (n^{10})$
+1.  $2^{n + 1} = O (2^{n})$
+2.  $\frac{4^{n}}{2^{n}} = O (2^{n})$
+3.  $2^{2n} = O (2^{n})$
+4.  $64^{log(n)} = O (n^{10})$
 
 ### Answer
 
@@ -142,10 +142,10 @@ Identify True and False Statements
 ### Question
 
 Identify True and False Statements
-1.  $f(n) = \odot (({f(n))}^{2})$
-2.  $f(n) = \odot (\frac{f(n)}{2})$
-3.  $f(n) = \odot (f(\frac{n}{2}))$
-4.  $if\ f(n) = \odot g(n)\ then\ 2^{f(n)} = \odot (2^{g(n)})$
+1.  $f(n) = O (({f(n))}^{2})$
+2.  $f(n) = O (\frac{f(n)}{2})$
+3.  $f(n) = O (f(\frac{n}{2}))$
+4.  $if\ f(n) = O g(n)\ then\ 2^{f(n)} = O (2^{g(n)})$
 
 ### Answer
 
@@ -192,23 +192,23 @@ $2^{n}\ ?\ 3^{n}$
 ## Example 8
 
 Identify True and False Statements
-1.  $100000\  = \  \odot (1)$
-2.  $\frac{1}{n} = \theta(1)$
-3.  $1000\  = \ \theta(1)$
-4.  $1000\  = \  \odot (\frac{1}{n})$
+1.  $100000\  = \  O (1)$
+2.  $\frac{1}{n} = \Theta(1)$
+3.  $1000\  = \ \Theta(1)$
+4.  $1000\  = \  O (\frac{1}{n})$
 
 ## Example 9
 
 $let\ f(n),\ g(n)\ and\ h(n)\ be\ 3\  + ve\ functions,\ defined\ as\ below$
 
-1.  $f(n) = \odot (g(n))\ \&\&\ g(n) \neq \odot (f(n))$
-2.  $g(n) = \odot (h(n))\ \&\&\ h(n) = \odot (g(n))$
+1.  $f(n) = O (g(n))\ \&\&\ g(n) \neq O (f(n))$
+2.  $g(n) = O (h(n))\ \&\&\ h(n) = O (g(n))$
 
 Then Identify True and False Statements
-1.  $f(n).g(n)\  = \odot (g(n).h(n))$
-2.  $f(n) + g(n)\  = \odot (h(n))$
-3.  $h(n)\  = \theta(f(n))$
-4.  $g(n).h(n)\  = \theta(h(n).h(n))$
+1.  $f(n).g(n)\  = O (g(n).h(n))$
+2.  $f(n) + g(n)\  = O (h(n))$
+3.  $h(n)\  = \Theta(f(n))$
+4.  $g(n).h(n)\  = \Theta(h(n).h(n))$
 
 ## Example 10
 
@@ -302,9 +302,9 @@ Arrange in Asymptotic Increasing order.
 
 $n!\  < \ n^{n}$ Strictly
 
-SO $\ n! = \odot (n^{n})$
+SO $\ n! = O (n^{n})$
 
-But $log(n!) = \theta(nlogn)$ According to Stirling\'s Approximation.
+But $log(n!) = \Theta(nlogn)$ According to Stirling\'s Approximation.
 
 Proof:
 
@@ -316,25 +316,25 @@ $\Rightarrow \ log(n!) \equiv \frac{1}{2}log(2\pi e) + \frac{1}{2}log(n) + nlog(
 
 $\Rightarrow \ log(n!) \equiv \ K\  + \ log(n)\  + \ nlog(n)\  + \ nK_{1}$
 
-$\Rightarrow \ log(n!) \equiv \ \theta(nlog(n))$
+$\Rightarrow \ log(n!) \equiv \ \Theta(nlog(n))$
 
 # Properties of Asymptotic Notations
 
 ## Reflexive Property
 
-$f(n) = \odot (f(n))$
+$f(n) = O (f(n))$
 
 $f(n) = \Omega(f(n))$
 
 $f(n) = \Theta(f(n))$
 
-$\odot$ $\Omega$ and $\Theta$ satisfy this property.
+$O$ $\Omega$ and $\Theta$ satisfy this property.
 
-$\circ$ and $\omega$ however, does not satisfy this property.
+$o$ and $\omega$ however, does not satisfy this property.
 
 ## Symmetric Property
 
-$f(n) = \odot (g(n))$ then $g(n) = \odot (f(n))$
+$f(n) = O (g(n))$ then $g(n) = O (f(n))$
 
 What will pass ?
 
@@ -342,19 +342,19 @@ What will not pass ?
 
 ## Transitive Property
 
-$f(n) = \odot (g(n))$ and $g(n) = \odot (h(n))$
+$f(n) = O (g(n))$ and $g(n) = O (h(n))$
 
-$then\ f(n) = \odot (h(n))$
+$then\ f(n) = O (h(n))$
 
-$\odot$, $\Omega$, $\Theta$, $\circ$ and $\omega$ all will satisfy this
+$O$, $\Omega$, $\Theta$, $o$ and $\omega$ all will satisfy this
 condition.
 
 ## Extra Property
 
-$f(n) = \odot (g(n))$ and $d(n) = \odot (e(n))$
+$f(n) = O (g(n))$ and $d(n) = O (e(n))$
 
 $then$
 
-$f(n)\  + \ d(n) = \odot (g(n) + e(n))\ or\ MAX(g(n),\ e(n))$
+$f(n)\  + \ d(n) = O (g(n) + e(n))\ or\ MAX(g(n),\ e(n))$
 
-$f(n).g(n) = \odot (g(n).e(n))$
+$f(n).g(n) = O (g(n).e(n))$

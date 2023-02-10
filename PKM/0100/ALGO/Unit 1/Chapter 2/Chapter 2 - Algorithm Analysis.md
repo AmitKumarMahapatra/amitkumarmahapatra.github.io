@@ -112,7 +112,7 @@ Exam is not for learning purposes. So don't waste time in doing proofs.
 ![Example 5 - Case A](./images/Example%205/Case%20A.jpg)
 
 #### Exam Tricks
-If you are having trouble finding the TC from FOR Loop, convert into WHILE Loop.
+If you are having trouble finding the TC from `for` Loop, convert into `while` Loop.
 
 #### Example 6
 ![Example 6 - Case A](./images/Example%206/Case%20A.jpg)
@@ -149,27 +149,27 @@ Don\'t be like a problem person, Be a solution Person.
 ![Example 11 - Case B](./images/Example%2011/Case%20B.jpg)
 
 ##### Note for Example 11
--   Except Example 11, in all other previous examples, the $T(n)$ has always one particular answer. That is, $T(n)$ does not depend on the **type of n**. But in [Example 11 Case B](#case-b-4), the algorithm gives **different** $T(n)$ depending upon the value of **type of n**.
--   Here, we need to understand the use of $\odot$ , $\Omega$ and $\Theta$.
--   $\odot$, $\Omega$ and $\Theta$ is not used for Worst Case, Best case and Average case.
--   $\odot$, $\Omega$ and $\Theta$ is not only used for Time and Space Complexity. They are used whenever we don\'t have an actual answer and we can only give an approximate one.
--   $\odot$ simply means the right side is greater or equal.
--   $\Omega$ simply means the left side is greater or equal.
--   Where we can write both $\odot$ and $\Omega$ in there we can write $\Theta$.
--   This will be explained in Chapter 3.
+-   Except Example 11, in all other previous examples, the $T(n)$ has always one particular answer. That is, $T(n)$ does not depend on the **type of n**. But in [Example 11 Case B](#case-b-4), the algorithm gives **different** $T(n)$ depending upon **type of n**.
+-   Here, we need to understand the use of $O$ , $\Omega$ and $\Theta$.
+-   $O$, $\Omega$ and $\Theta$ is not used for Worst Case, Best case and Average case.
+-   $O$, $\Omega$ and $\Theta$ is not only used for Time and Space Complexity. They are used whenever we don\'t have an actual answer and we can only give an approximate one.
+-   $O$ simply means the right side is greater or equal, or in other words, **Upper Bound**.
+-   $\Omega$ simply means the left side is greater or equal, or in other words **Lower Bound**.
+-   Where we can write both $O$ and $\Omega$ in there we can write $\Theta$.
+-   This will be explained in [Chapter 3](../Chapter%203/Chapter%203%20-%20Asymptotic%20Notations).
 
 ##### Note for Example 11 Case A
-- Here $n$ is always guaranteed to be prime. So the ``if`` condition is going to be satisfied exactly 2 times. But the outer ``for`` loop is going to be executed for n number of times. So the $T(n)$ is $\odot(n)$, not $\odot(1)$.
+- Here $n$ is always guaranteed to be prime. So the ``if`` condition is going to be satisfied exactly 2 times. But the outer ``for`` loop is going to be executed for n number of times. So the $T(n)$ is $O(n)$, not $O(1)$.
 - Here there is only 1 possibility of $T(n)$, however, different possibilities comes in [Example 11 Case B](#case-b-4)
 
 ##### Note for Example 11 Case B
 - Here $n$ can be prime or composite. So the inner ``for`` loop execution will depend on the type of $n$.
     - if $n$ is always prime then $T(n) = n$
     - if $n$ is always composite then max  $T(n) = n^2$
-- So $\Omega(n) < T(n) < \odot(n^2)$
+- So $\Omega(n) < T(n) < O(n^2)$
 - So the correct expressions for T(n) are
     - $T(n) = \Omega(n)$ *represents that T(n) will be minimum n*
-    - $T(n) = \odot(n^2)$ *represents that T(n) will be maximum $n^2$*
+    - $T(n) = O(n^2)$ *represents that T(n) will be maximum $n^2$*
 
 #### Motivational Quote
 Don't cry if anything new comes in. Just Smile and learn it.

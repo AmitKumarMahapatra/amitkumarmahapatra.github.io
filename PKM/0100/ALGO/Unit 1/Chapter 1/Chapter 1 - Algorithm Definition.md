@@ -11,10 +11,9 @@ It is a combination of a **sequence** of **finite steps** to **solve a problem**
 ### Property 1
 
 It should terminate after a finite time. 
-```c
-  while(1) {
-    print ("Infinity");
-  }
+```python
+while(True):
+  print("Infinity")
 ```
 If a code has finite steps, it is not necessary that it will terminate in finite time.
 The above code will not terminate in finite time, even though, it has finite numbers of steps. So it is not an algorithm.

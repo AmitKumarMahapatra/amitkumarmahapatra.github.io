@@ -11,6 +11,7 @@ def factorial(n):
 ```
 
 ### Recurrence Relation for time
+
 $$
 \begin{equation}
 \ T(n)=
@@ -41,6 +42,7 @@ $$
 
 
 ### Recurrence Relation for value
+
 $$
 \begin{equation}
 \ V(n)=

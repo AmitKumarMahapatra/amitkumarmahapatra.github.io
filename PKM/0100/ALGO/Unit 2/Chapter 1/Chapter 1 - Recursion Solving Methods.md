@@ -61,5 +61,5 @@ $$
 If you solve it
 
 $$
-F(n) = n! \  or \odot(n^n)
+F(n) = n! \  or \ O(n^n)
 $$
