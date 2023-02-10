@@ -9,8 +9,8 @@
     - [Chapter 2 - Substitution Method](./Unit%202/Chapter%202/Chapter%202%20-%20Substitution%20Method)
     - [Chapter 3 - Recursive Tree Method](./Unit%202/Chapter%203/Chapter%203%20-%20Recursive%20Tree%20Method)
     - [Chapter 4 - Master Theorem](./Unit%202/Chapter%204/Chapter%204%20-%20Master%20Theorem)
-    - [Chapter 5 - How to find Time Complexity of a recursive problem]()
-        - [Chapter 5a - Factorial]()
+    - Chapter 5 - How to find Time Complexity of a recursive problem
+        - [Chapter 5a - Factorial](./Unit%202/Chapter%205/Factorial)
         - [Chapter 5b - Fibonacci Series]()
         - [Chapter 5c - GCD]()
 - Unit 3 - Divide and Conquer

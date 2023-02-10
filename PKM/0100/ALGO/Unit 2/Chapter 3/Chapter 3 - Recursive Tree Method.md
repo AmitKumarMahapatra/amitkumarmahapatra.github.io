@@ -45,8 +45,8 @@ n*log_{3}n \lt T(n) \lt  n*log_{\frac{3}{2}}n
 $$
 
 - Now let's find asymptotical relation.
-    - We can not directly write $T(n) = o(n*log_{\frac{3}{2}}n)$ , just because $T(n) \lt  n*log_{\frac{3}{2}}n$.
-    - Similarly, we can not directly write $T(n)=\omega(n*log_{3}n)$, just because $n*log_{3}n \lt T(n)$.
+    - We can not directly write $T(n) = o(n*log_{\frac{3}{2}}n)$ , just because $T(n) \lt  n*log_{\frac{3}{2}}n$
+    - Similarly, we can not directly write $T(n)=\omega(n*log_{3}n)$ , just because $n*log_{3}n \lt T(n)$
     - But we can compare $n*log_{3}n$ and $n*log_{\frac{3}{2}}n$
     - $n*log_{3}n = \Theta(n*log_{\frac{3}{2}}n)$
     - So asymptotically, there is no difference between the upper and lower bound. So we can safely say, asymptotically, there is no difference between $T(n)$ and $n*log_{\frac{3}{2}}n$ as well as $T(n)$ and $n*log_{3}n$

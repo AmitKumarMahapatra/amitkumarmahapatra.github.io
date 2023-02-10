@@ -1,6 +1,6 @@
 ## Index
-- [Amit](./AMIT/index.md)
-- [Anup](./ANUP/index.md)
-- [Namita](./NAMITA/index.md)
-- [Chindali](./AAKANKHYA/index.md)
-- [Family](./FAMILY/index.md)
+- [Amit](./AMIT/)
+- [Anup](./ANUP/)
+- [Namita](./NAMITA/)
+- [Chindali](./AAKANKHYA/)
+- [Family](./FAMILY/)
