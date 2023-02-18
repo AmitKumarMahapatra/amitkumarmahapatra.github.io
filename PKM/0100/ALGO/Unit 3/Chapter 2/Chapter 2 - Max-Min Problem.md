@@ -5,9 +5,11 @@
 - Output : Find the Maximum and Minimum elements in the array
 
 ### Example
+
 | Array elements | 50 | 70 | 60 | 45 | 35 | 25 | 75 | 12 |
 | -------------- | -- | -- | -- | -- | -- | -- | -- | -- |
 | Indices        | 1  | 2  | 3  | 4  | 5  | 6  | 7  | 8  |
+
 
 ### Approaches
 1. Linear one scan (Brute force Approach).
@@ -63,9 +65,11 @@ $$
 
 - But one thing to note here is, the number of comparison for a given input might change if we just swap the ```if``` and ```else if``` case.
 - For Example
+
     | Array elements | 1  | 2  | 3  | 4  | 5  | 6  | 7  | 8  |
     | -------------- | -- | -- | -- | -- | -- | -- | -- | -- |
     | Indices        | 1  | 2  | 3  | 4  | 5  | 6  | 7  | 8  |
+
     - No of comparison in this case is 7 *(Best case)*
         ```python
             for element in array:
