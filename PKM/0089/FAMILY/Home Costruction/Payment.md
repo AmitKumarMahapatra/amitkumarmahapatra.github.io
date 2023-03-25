@@ -51,4 +51,6 @@
 | 49    | 23 January 2023  | 50000   | Online          | BHIM               | Amit Mahapatra   | Priaybrata Behera |
 | 50    | 31 January 2023  | 50000   | Online          | BHIM               | Amit Mahapatra   | Priaybrata Behera |
 | 52    | NA               | 22775   | Offline         | Cash               | Namita Mahapatra | Labour            |
-| Total | 5th Feb 2023     | 1765775 | Offline/Online  | BHIM/PhonePay/Cash | Amit/Anup/Namita | Priya/Labour      |
+| 53    | 06 March 2023    | 50000   | Online          | BHIM               | Amit Mahapatra   | Priaybrata Behera |
+| 54    | 16 March 2023    | 50000   | Online          | BHIM               | Amit Mahapatra   | Priaybrata Behera |
+| Total | 5th Feb 2023     | 1865775 | Offline/Online  | BHIM/PhonePay/Cash | Amit/Anup/Namita | Priya/Labour      |
